@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout_zone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_order_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/title_color"
+            android:gravity="center"
+            android:text="SaasUser"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/order_line" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_travel"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/order_line" />
+
+            <RadioButton
+                android:id="@+id/rb_travel_want"
+                style="@style/radioButton_order"
+                android:background="@drawable/selector_order_want"
+                android:checked="true"
+                android:text="@string/travel_want" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/order_line" />
+
+            <RadioButton
+                android:id="@+id/rb_travel_now"
+                style="@style/radioButton_order"
+                android:background="@drawable/selector_order_now"
+                android:text="@string/travel_now" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/order_line" />
+
+            <RadioButton
+                android:id="@+id/rb_travel_plan"
+                style="@style/radioButton_order"
+                android:background="@drawable/selector_order_plan"
+                android:text="@string/travel_plan" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/order_line" />
+
+            <RadioButton
+                android:id="@+id/rb_travel_records"
+                style="@style/radioButton_order"
+                android:background="@drawable/selector_order_record"
+                android:text="@string/travel_record" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/order_line" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/order_line" />
+
+        <com.small.saasuser.view.NoScrollViewPager
+            android:id="@+id/vp_order"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/hair_topic_layout" />
+    </LinearLayout>
+
+</RelativeLayout>

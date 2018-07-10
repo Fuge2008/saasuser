@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/niformation_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" 
+        android:textSize="18sp"
+        android:text="国庆接单3倍奖励通知"
+        />
+     <TextView 
+        android:id="@+id/niformation_content"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" 
+        android:textSize="10sp"
+        android:lines="2"
+        android:text="      国庆长假即将到来，未响应国家倡导的假日上班三倍工资的要求，特推出国庆长假接单三倍奖励，接单越多，服务越优质，您将获得的奖励越多。屌丝们，加油吧，好好干，祖国不会亏待你的！！！"
+        />
+      <TextView 
+        android:id="@+id/niformation_time"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" 
+        android:textSize="10sp"
+        android:layout_gravity="right"
+        android:text="9月25日 "
+        />
+
+</LinearLayout>

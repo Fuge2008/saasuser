@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+     <!-- 编辑框字体大小 -->
+    <dimen name="EditText_textsize">10dp</dimen>
+        <!-- 内间距 -->
+    <dimen name="app_padding">15.0dip</dimen>
+
+</resources>

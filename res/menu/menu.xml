@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/demo_one"
+        android:orderInCategory="100"
+        android:title="Demo_One"
+        />
+    <item
+        android:id="@+id/demo_two"
+        android:orderInCategory="100"
+        android:title="Demo_Two"
+        />
+    <item
+        android:id="@+id/demo_three"
+        android:orderInCategory="100"
+        android:title="Demo_Three"
+        />
+
+</menu>

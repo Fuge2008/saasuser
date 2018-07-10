@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/system_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="100dp"
+    android:minWidth="200dp"
+    android:divider="@drawable/linearlayout_divider"
+    
+    android:orientation="vertical"
+    android:showDividers="middle" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="系统提示"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/system_massge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="系统提示"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/system_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+           android:text="确定"
+           android:gravity="center"
+         android:background="@color/white"
+          android:textSize="14dp"
+                android:paddingBottom="10dp"
+
+        android:paddingTop="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="时间选择" />
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="选择当前时间" />
+    <LinearLayout
+        android:layout_width="200dp"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+   		android:orientation="horizontal" >
+		<com.small.saasuser.view.wheel.WheelView 
+			android:id="@+id/time_year"
+			android:layout_height="wrap_content"
+			android:layout_width="100dp"
+			android:layout_marginLeft="0dp"
+			android:layout_weight="1"/>
+		<com.small.saasuser.view.wheel.WheelView 
+			android:id="@+id/time_month"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp"
+			android:layout_weight="1"/>
+		<com.small.saasuser.view.wheel.WheelView 
+			android:id="@+id/time_day"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp"
+			android:layout_weight="1"/>
+		<com.small.saasuser.view.wheel.WheelView 
+			android:id="@+id/time_hour"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp"
+			android:layout_weight="1"/>
+		<com.small.saasuser.view.wheel.WheelView 
+			android:id="@+id/time_minute"
+			android:layout_height="wrap_content"
+			android:layout_width="80dp"
+			android:layout_weight="1"/>
+	</LinearLayout>
+	<TextView 
+	    android:id="@+id/time_chose"
+	    android:layout_marginTop="20dp"
+	    android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textColor="#99CC66"
+		android:text="时间为："
+	    />
+	<Button 
+	    android:id="@+id/btn_sumbit"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:text="确定时间"
+	    />
+	
+</LinearLayout>

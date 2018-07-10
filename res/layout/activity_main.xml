@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/huise"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <!--
+     <FrameLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </FrameLayout>
+    -->
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/rg_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp" >
+
+            <RadioButton
+                android:id="@+id/rb_home_page"
+                style="@style/radioButton_home"
+                android:drawableTop="@drawable/selector_home_page"
+                android:text="@string/homePage" />
+
+            <RadioButton
+                android:id="@+id/rb_user_center"
+                style="@style/radioButton_home"
+                android:drawableTop="@drawable/selector_user_center"
+                android:text="@string/userCenter" />
+
+            <RadioButton
+                android:id="@+id/rb_setting"
+                style="@style/radioButton_home"
+                android:drawableTop="@drawable/selector_setting"
+                android:text="@string/setting" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

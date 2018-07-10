@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/title_color"
+            android:paddingBottom="10.0dip"
+            android:paddingTop="10.0dip" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="设置"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/app_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:drawableLeft="@drawable/app_setting"
+        android:drawablePadding="10dip"
+        android:drawableRight="@drawable/ic_arrow"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="16dip"
+        android:paddingTop="10dip"
+        android:text="APP设置"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e3e3e3" />
+
+    <TextView
+        android:id="@+id/use_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:drawableLeft="@drawable/shiyongzhinan"
+        android:drawablePadding="10dip"
+        android:drawableRight="@drawable/ic_arrow"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="16dip"
+        android:paddingTop="10dip"
+        android:text="@string/use_guide"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e3e3e3" />
+
+    <TextView
+        android:id="@+id/faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:drawableLeft="@drawable/faq"
+        android:drawablePadding="10dip"
+        android:drawableRight="@drawable/ic_arrow"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="16dip"
+        android:paddingTop="10dip"
+        android:text="FAQ"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e3e3e3" />
+
+    <TextView
+        android:id="@+id/contact_customer_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:drawableLeft="@drawable/lianxikefu"
+        android:drawablePadding="10dip"
+        android:drawableRight="@drawable/ic_arrow"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="16dip"
+        android:paddingTop="10dip"
+        android:text="@string/contact_customer_service"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e3e3e3" />
+
+    <TextView
+        android:id="@+id/about_SAAS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:drawableLeft="@drawable/faq"
+        android:drawablePadding="10dip"
+        android:drawableRight="@drawable/ic_arrow"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="16dip"
+        android:paddingTop="10dip"
+        android:text="@string/about_SAAS"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e3e3e3" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Space 
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            />
+
+        <Button
+            android:id="@+id/unlogin"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="5"
+            android:background="@drawable/blue_button_background"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="退 出 登 录"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <Space 
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+</LinearLayout>

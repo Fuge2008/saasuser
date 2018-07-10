@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ToggleView">
+        <attr name="switch_background" format="reference" />
+        <attr name="slide_button" format="reference" />
+        <attr name="switch_state" format="boolean" />
+    
+        
+    </declare-styleable>
+	<declare-styleable name="TextView">
+        <attr name="saasusertitle" format="string" />
+    </declare-styleable>
+     <!-- RatingView -->
+
+    <declare-styleable name="RatingView">
+        <attr name="rating_max" format="integer" />
+        <attr name="rating_unrated_color" format="color" />
+        <attr name="rating_rated_color" format="color" />
+        <attr name="rating_title_color" format="color" />
+        <attr name="rating_outline_color" format="color" />
+        <attr name="rating_default_color" format="color" />
+        <attr name="rating_title_visible" format="boolean" />
+        <attr name="colorAccent" format="color" />
+        <attr name="colorPrimaryDark" format="color" />
+        <attr name="colorPrimary" format="color" />
+    </declare-styleable>
+    
+      <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+</resources>
